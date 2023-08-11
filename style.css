@@ -1,0 +1,14 @@
+.culomn{
+    column-count: 4;
+    column-rule: solid 2px;
+    column-width: 300px;
+
+}
+.culomn h1 {
+    padding: 2px;
+    background-color: red;
+    text-align: center;
+    margin: 0 auto;
+    break-inside: avoid;
+    break-before: column;
+}
